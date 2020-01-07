@@ -21,7 +21,7 @@ export class Tabela {
     public faixa225: number = 10963.56; // 45.012,60 - 55.976,16
     public tetoEducacao: number = 3561.50;
 
-    public recebeuDe: Pagador[];
+    public recebeuDe: Pagador[] = new Array<Pagador>();
 
     public getTetoPGBL(pagador: Pagador): number {
         return pagador.ganhoAnual * 0.12;

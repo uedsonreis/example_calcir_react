@@ -18,9 +18,9 @@ export default class App extends Component<any, any> {
 
     async componentDidMount() {
         await Font.loadAsync({
-          Roboto: require('native-base/Fonts/Roboto.ttf'),
-          Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
-          ...Ionicons.font,
+            Roboto: require('native-base/Fonts/Roboto.ttf'),
+            Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
+            ...Ionicons.font,
         });
         this.setState({ isReady: true });
     }
@@ -37,12 +37,3 @@ export default class App extends Component<any, any> {
         return ( <AppContainer /> );
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-});

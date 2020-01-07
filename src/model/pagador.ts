@@ -9,9 +9,9 @@ export class Pagador {
 
   public totalAPagar: number;
   public valorFaixaIsento: number;
-  public valorFaixa075: number;
-  public valorFaixa150: number;
-  public valorFaixa225: number;
-  public valorFaixa275: number;
+  public valorFaixa075: number = 0.0;
+  public valorFaixa150: number = 0.0;
+  public valorFaixa225: number = 0.0;
+  public valorFaixa275: number = 0.0;
 
 }

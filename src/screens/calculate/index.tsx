@@ -2,23 +2,12 @@ import React, { Component, ReactNode } from 'react';
 import { Header, Title, Body, Container } from 'native-base';
 
 import { Pagador } from '../../model';
-import { CalculateScreenView } from './view';
+import { CalculateScreenView, HeaderView } from './view';
+import { CalculateActions } from './interface';
 
 type State = { pagador: Pagador };
 
-export class CalculateScreen extends Component<any, State> {
-
-    static navigationOptions = () => {
-        return {
-            header: () => (
-                <Header >
-                    <Body>
-                        <Title> Cálculo do IRPF </Title>
-                    </Body>
-                </Header>
-            ),
-        };
-    };
+export class CalculateScreen extends Component<any, State> implements CalculateActions {
 
     constructor(props: any) {
         super(props);
@@ -39,6 +28,10 @@ export class CalculateScreen extends Component<any, State> {
 
         this.props.navigation.navigate('result', { pagador: this.state.pagador});
     }
+
+    static navigationOptions = () => {
+        return { header: () => <HeaderView /> };
+    };
 
     public render(): ReactNode {
         return (

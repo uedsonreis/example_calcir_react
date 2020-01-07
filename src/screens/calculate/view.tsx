@@ -2,11 +2,29 @@ import React, { ReactNode, Component } from 'react';
 import { Button, Content, Input, Label, List, ListItem, Text, Container, Header, Body, Title } from 'native-base';
 
 import { Pagador, Deducao } from '../../model';
+import { CalculateActions } from './interface';
 import tabelaIRPF from '../../model/tabela';
 import styles from './styles';
 
+export class HeaderView extends Component<any, any> {
+
+    constructor(props: any) {
+        super(props);
+    }
+
+    public render(): ReactNode {
+        return (
+            <Header style={styles.header}>
+                <Body>
+                    <Title> Cálculo do IRPF </Title>
+                </Body>
+            </Header>
+        );
+    }
+}
+
 type State = { saude: Deducao, educacao: Deducao, demais: Deducao };
-type Props = { pagador: Pagador, actions: any };
+type Props = { pagador: Pagador, actions: CalculateActions };
 
 export class CalculateScreenView extends Component<Props, State> {
 
@@ -30,28 +48,30 @@ export class CalculateScreenView extends Component<Props, State> {
         return (
             <Container>
                 <Content>
+
                     <List>
                         <ListItem>
-                            <Label><Text> Ganho Anual: </Text></Label>
+                            <Label> Ganho Anual (R$): </Label>
                             <Input onChangeText={text => pagador.ganhoAnual = Number(text)} />
                         </ListItem>
                         <ListItem>
-                            <Label><Text> Deduções com Saúde: </Text></Label>
+                            <Label> Deduções com Saúde (R$): </Label>
                             <Input onChangeText={text => this.state.saude.valor = Number(text)} />
                         </ListItem>
                         <ListItem>
-                            <Label><Text> Deduções com Educação: </Text></Label>
+                            <Label> Deduções com Educação (R$): </Label>
                             <Input onChangeText={text => this.state.educacao.valor = Number(text)} />
                         </ListItem>
                         <ListItem>
-                            <Label><Text> Demais Deduções: </Text></Label>
+                            <Label> Demais Deduções (R$): </Label>
                             <Input onChangeText={text => this.state.demais.valor = Number(text)} />
                         </ListItem>
                     </List>
         
-                    <Button onPress={() => actions.login()} style={styles.calculateButton} block>
+                    <Button onPress={() => actions.calculate()} style={styles.calculateButton} block>
                         <Text>Calcular</Text>
                     </Button>
+
                 </Content>
             </Container>
         );
