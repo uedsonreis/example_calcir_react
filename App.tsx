@@ -6,6 +6,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { AppLoading } from 'expo';
 import * as Font from 'expo-font';
 
+import SplashScreen from 'react-native-splash-screen';
+
 import { CalculateScreen } from './src/screens/calculate';
 import { ResultScreen } from './src/screens/result';
 
@@ -22,6 +24,7 @@ export default class App extends Component<any, any> {
             Roboto_medium: require('native-base/Fonts/Roboto_medium.ttf'),
             ...Ionicons.font,
         });
+        SplashScreen.hide();
         this.setState({ isReady: true });
     }
 

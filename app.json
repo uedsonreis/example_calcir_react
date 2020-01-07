@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Calc IR",
-    "slug": "calcir_react",
+    "slug": "example_calcir_react",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,9 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
-  }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "Calc IR",
+  "name": "example_calcir_react"
 }
