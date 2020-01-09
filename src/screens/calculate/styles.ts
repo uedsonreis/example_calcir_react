@@ -6,6 +6,10 @@ export default StyleSheet.create({
         backgroundColor: "#222428"
     },
 
+    title: {
+        color: "white"
+    },
+
     calculateButton: {
         margin: 20
     }

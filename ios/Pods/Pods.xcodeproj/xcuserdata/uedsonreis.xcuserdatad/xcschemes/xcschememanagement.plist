@@ -9,61 +9,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>EXAppLoaderProvider.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXConstants.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXErrorRecovery.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXFileSystem.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXFont.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXKeepAwake.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXLinearGradient.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXLocation.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXPermissions.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXSQLite.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>EXWebBrowser.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>FBLazyVector.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -79,7 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-example_calcir_react.xcscheme</key>
+		<key>Pods-calcir_react-tvOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-calcir_react-tvOSTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-calcir_react.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-calcir_reactTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -204,66 +164,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>UMBarCodeScannerInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMCameraInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMConstantsInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMCore.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMFaceDetectorInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMFileSystemInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMFontInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMImageLoaderInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMPermissionsInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMReactNativeAdapter.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMSensorsInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>UMTaskManagerInterface.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Yoga.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -275,6 +175,11 @@
 			<false/>
 		</dict>
 		<key>glog.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>react-native-safe-area-context.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

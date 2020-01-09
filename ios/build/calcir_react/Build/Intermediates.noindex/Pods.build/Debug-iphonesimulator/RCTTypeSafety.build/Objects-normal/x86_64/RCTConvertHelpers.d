@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.mm \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Target\ Support\ Files/RCTTypeSafety/RCTTypeSafety-prefix.pch \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/node_modules/react-native/Libraries/TypeSafety/RCTConvertHelpers.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/Optional.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/Portability.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/CPortability.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/Traits.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/Utility.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTConvert.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTAnimationType.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTLog.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h

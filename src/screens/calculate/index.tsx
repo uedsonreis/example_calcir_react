@@ -1,5 +1,4 @@
 import React, { Component, ReactNode } from 'react';
-import { Header, Title, Body, Container } from 'native-base';
 
 import { Pagador } from '../../model';
 import { CalculateScreenView, HeaderView } from './view';

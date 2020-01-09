@@ -1,33 +1,33 @@
 {
-  "expo": {
-    "name": "Calc IR",
-    "slug": "example_calcir_react",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+    "expo": {
+        "name": "Calc IR",
+        "slug": "calcir_react",
+        "privacy": "public",
+        "sdkVersion": "36.0.0",
+        "platforms": [
+            "ios",
+            "android",
+            "web"
+        ],
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "entryPoint": "node_modules/expo/AppEntry.js"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    },
-    "entryPoint": "node_modules/expo/AppEntry.js"
-  },
-  "displayName": "Calc IR",
-  "name": "example_calcir_react"
+    "displayName": "Calc IR",
+    "name": "calcir_react"
 }

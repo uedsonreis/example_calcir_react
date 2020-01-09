@@ -16,7 +16,7 @@ export class HeaderView extends Component<any, any> {
         return (
             <Header style={styles.header}>
                 <Body>
-                    <Title> Cálculo do IRPF </Title>
+                    <Title style={styles.title}> Cálculo do IRPF </Title>
                 </Body>
             </Header>
         );
@@ -40,7 +40,7 @@ export class CalculateScreenView extends Component<Props, State> {
         this.props.pagador.pagou.push(saude);
         this.props.pagador.pagou.push(demais);
 
-        this.setState({ saude, educacao, demais });
+        this.state = { saude, educacao, demais };
     }
 
     public render(): ReactNode {

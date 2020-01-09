@@ -1,0 +1,17 @@
+dependencies: \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/node_modules/react-native/Libraries/Text/TextInput/Multiline/RCTMultilineTextInputView.m \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTMultilineTextInputView.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTBaseTextInputView.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputDelegate.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputViewProtocol.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTUtils.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTAssert.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/uedsonreis/Documents/Projetos/add/calcir_react/ios/Pods/Headers/Public/React-Core/React/RCTUITextView.h

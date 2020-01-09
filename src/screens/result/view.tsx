@@ -22,7 +22,7 @@ export class HeaderView extends Component<any, any> {
                 </Left>
                 
                 <Body>
-                    <Title> Resultado </Title>
+                    <Title style={styles.title}> Resultado </Title>
                 </Body>
                 
                 <Right />
@@ -43,19 +43,19 @@ export class ResultScreenView extends Component<Props, any> {
         const { pagador, tabela, actions } = this.props;
 
         return (
-            <Container>
+            <Container style={styles.container}>
                 <Content>
 
                     <Card>
                         <CardItem header>
                             <Body>
-                                <Text> <b>Total de Imposto a Pagar</b> </Text>
+                                <Text style={styles.totalValue}> Total de Imposto a Pagar </Text>
                             </Body>
                         </CardItem>
                         
                         <CardItem>
                             <Body>
-                                <Text> <b>R$ {pagador.totalAPagar.toFixed(2)}</b> </Text>
+                                <Text style={styles.totalValue}> R$ {pagador.totalAPagar.toFixed(2)} </Text>
                             </Body>
                         </CardItem>
                     </Card>

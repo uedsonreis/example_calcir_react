@@ -1,16 +1,16 @@
 {
+    "name": "calcir_react",
+    "version": "0.1.0",
+    "private": true,
     "scripts": {
         "start": "react-native start",
         "android": "react-native run-android",
         "ios": "react-native run-ios",
-        "web": "expo start --web",
         "podi": "cd ios && pod install && cd ..",
-        "postinstall": "jetify && jetify && jetify && jetify && jetify"
+        "postinstall": "jetify && jetify && jetify && jetify && jetify && jetify"
     },
     "dependencies": {
         "@react-native-community/masked-view": "^0.1.5",
-        "expo": "~36.0.0",
-        "expo-font": "~8.0.0",
         "native-base": "^2.13.8",
         "react": "~16.9.0",
         "react-dom": "~16.9.0",
@@ -27,7 +27,10 @@
     },
     "devDependencies": {
         "@babel/core": "^7.0.0",
+        "@babel/runtime": "7.0.0",
+        "@react-native-community/eslint-config": "0.0.5",
         "babel-jest": "~24.9.0",
+        "eslint": "6.8.0",
         "jest": "~24.9.0",
         "jetifier": "~1.6.4",
         "metro-react-native-babel-preset": "~0.56.0",
@@ -35,8 +38,6 @@
         "@bam.tech/react-native-make": "^1.0.3",
         "@types/react": "~16.9.0",
         "@types/react-native": "~0.60.23",
-        "babel-preset-expo": "~8.0.0",
         "typescript": "~3.6.3"
-    },
-    "private": true
+    }
 }
