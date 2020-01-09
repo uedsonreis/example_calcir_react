@@ -1,4 +1,5 @@
 import React, { ReactNode, Component } from 'react';
+import { StatusBar } from 'react-native';
 import { Button, Content, Input, Label, List, ListItem, Text, Container, Header, Body, Title } from 'native-base';
 
 import { Pagador, Deducao } from '../../model';
@@ -15,6 +16,7 @@ export class HeaderView extends Component<any, any> {
     public render(): ReactNode {
         return (
             <Header style={styles.header}>
+                <StatusBar backgroundColor="blue" barStyle="light-content" />
                 <Body>
                     <Title style={styles.title}> Cálculo do IRPF </Title>
                 </Body>

@@ -1,4 +1,5 @@
 import React, { ReactNode, Component } from "react";
+import { StatusBar } from "react-native";
 import { Button, Icon, Header, Body, Title, Left, Right, Container, Content, Card, CardItem, Text } from 'native-base';
 
 import styles from './styles';
@@ -15,6 +16,8 @@ export class HeaderView extends Component<any, any> {
         const { navigation } = this.props;
         return (
             <Header style={styles.header}>
+                <StatusBar backgroundColor="blue" barStyle="light-content" />
+                
                 <Left>
                     <Button transparent onPress={() => navigation.goBack()}>
                         <Icon name="arrow-back" />
